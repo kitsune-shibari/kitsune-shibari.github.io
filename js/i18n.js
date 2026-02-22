@@ -84,6 +84,7 @@ const translations = {
         },
         bio: {
             meta: { title: "Bio | KITSUNE" },
+            page: { title: "Bio" },
             hero: { title: "KITSUNE", subtitle: "Trayectoria · Filosofía · Práctica" },
             quien: { title: "Quién soy", text: "Instructora de Shibari, fotógrafa y creadora de espacios. Mi trabajo habita en la intersección entre la disciplina técnica japonesa y la exploración contemporánea del cuerpo, el vínculo y la imagen." },
             trayectoria: {
@@ -124,17 +125,24 @@ const translations = {
             nota: { "1": "Respuesta en 24-48hs. Para consultas sobre clases, revisá primero la sección", "2": "Caminos" }
         },
         galeria: {
-    sesiones: [
-        { 
-            titulo: "Kitsession #1 - Bizarrope", 
-            desc: "A veces (siempre) el shibari nos ofrece la posibilidad de jugar y en lo lúdico podemos dejarnos interpretar lo que sentimos de manera genuina. Es sólo cuestión de estar presentes." 
+            meta: { title: "Galería | KITSUNE" },
+            title: "Galería",
+            subtitle: "Sesiones, performances y producciones",
+            sesiones: [
+                { 
+                    titulo: "Kitsession #1 - Bizarrope", 
+                    desc: "A veces (siempre) el shibari nos ofrece la posibilidad de jugar y en lo lúdico podemos dejarnos interpretar lo que sentimos de manera genuina. Es sólo cuestión de estar presentes." 
+                },
+                { 
+                    titulo: "Kitsession #2 - Sol y Aire", 
+                    desc: "El aire libre, la luz del sol y la primavera pueden ser el contexto ideal para experimentar la conexión con lo sagrado de la naturaleza y entre nosotras, dejando que las cuerdas sean canal." 
+                },
+                { 
+                    titulo: "Kitsession #3 - A dos veinte", 
+                    desc: "Atar sintiendo la electricidad en el aire" 
+                }
+            ]
         },
-        { 
-            titulo: "Kitsession #2 - Sol y Aire", 
-            desc: "El aire libre, la luz del sol y la primavera pueden ser el contexto ideal para experimentar la conexión con lo sagrado de la naturaleza y entre nosotras, dejando que las cuerdas sean canal." 
-        }
-    ]
-},
         tienda: {
             meta: { title: "Tienda | KITSUNE" },
             title: "Tienda",
@@ -164,7 +172,7 @@ const translations = {
         },
         about: {
             title: "About",
-            text: "Shibari instructor. Photographer. I create spaces for body exploration, safety, and art.",
+            text: "Shibari instructor. Photographer. I create spaces for body exploration, safety, art and spirituality through ropes.",
             link: "Learn more about my work →"
         },
         cards: {
@@ -174,7 +182,7 @@ const translations = {
         },
         caminos: {
             title: "Learning Paths",
-            subtitle: "If Life is a school, why not learn everything from psychomagic to science, from the unconscious to manifestation. Here we break the limits of the known so you can recover ancient memory. Drop expectations, flow with your heart's intuition, and get ready.",
+            subtitle: "If Life is a school, why not learn everything from psychomagic to science, from the unconscious to manifestation? Here we break the limits of the known so you can recover ancient memory. Drop expectations, flow with your heart's intuition, and get ready.",
             samurai: {
                 title: "The Way of the Samurai",
                 fundamentals: ["discipline", "technique", "precision"],
@@ -229,16 +237,17 @@ const translations = {
         },
         bio: {
             meta: { title: "Bio | KITSUNE" },
+            page: { title: "Bio" },
             hero: { title: "KITSUNE", subtitle: "Trajectory · Philosophy · Practice" },
             quien: { title: "Who I am", text: "Shibari instructor, photographer, and creator of spaces. My work inhabits the intersection between Japanese technical discipline and contemporary exploration of the body, bond, and image." },
             trayectoria: {
                 title: "Trajectory",
                 "2022": "Beginning of training in traditional Shibari.",
                 "2023": "Opening of own space. Start of teaching workshops and regular classes.",
-                "2024": "Beginning of training in Seikubaku, biomechanics and neuroscience applied to the discipline",
+                "2024": "Beginning of specialization in Seikubaku, biomechanics and neuroscience applied to Shibari practice.",
                 "2025_1": "Certification in Sekibaku by Shibari Dojo with Señor Interior. Bogotá, Colombia.",
                 "2025_2": "Publication of the book \"The Body as Map: Andean cosmovision explaining shibari as a tool for self-knowledge\".",
-                "2026": "Launch of KITSUNE as an integrated platform: Teaching, Production, and Community."
+                "2026": "Launch of KITSUNE as an integrated platform: AylluRyu Brand, Teaching, Production and Community."
             },
             filosofia: {
                 title: "Work Philosophy",
@@ -272,9 +281,20 @@ const translations = {
             meta: { title: "Gallery | KITSUNE" },
             title: "Gallery",
             subtitle: "Sessions, performances, and productions",
-            ver_sesion: "View full session →",
-            modal: { titulo: "Session title", desc: "Full description of the session.", patreon: "View full session" },
-            sesiones: [{ titulo: "Session #1 - Sekibaku 101", desc: "Brief description of the session, the concept, participants, and context. Can be 2-3 lines." }]
+            sesiones: [
+                { 
+                    titulo: "Kitsession #1 - Bizarrope", 
+                    desc: "Sometimes (always) shibari offers us the possibility to play and in playfulness we can allow ourselves to interpret what we feel genuinely. It's just a matter of being present." 
+                },
+                { 
+                    titulo: "Kitsession #2 - Sun and Air", 
+                    desc: "The open air, sunlight and spring can be the ideal context to experience connection with the sacredness of nature and among ourselves, letting the ropes be a channel." 
+                },
+                { 
+                    titulo: "Kitsession #3 - At Twenty Past", 
+                    desc: "Tying feeling the electricity in the air" 
+                }
+            ]
         },
         tienda: {
             meta: { title: "Shop | KITSUNE" },
@@ -305,7 +325,7 @@ const translations = {
         },
         about: {
             title: "Sobre",
-            text: "Instrutora de Shibari. Fotógrafa. Crio espaços de exploração corporal, segurança e arte.",
+            text: "Instrutora de Shibari. Fotógrafa. Crio espaços de exploração corporal, segurança, arte e espiritualidade através das cordas.",
             link: "Conheça mais sobre meu trabalho →"
         },
         cards: {
@@ -315,7 +335,7 @@ const translations = {
         },
         caminos: {
             title: "Caminhos de Aprendizagem",
-            subtitle: "Se a Vida é uma escola, por que não aprender tudo desde a psicomagia até a ciência, do inconsciente à manifestação. Aqui quebramos os limites do conhecido para que você recupere a memória antiga. Solte as expectativas, flua com a intuição do seu coração e prepare-se.",
+            subtitle: "Se a Vida é uma escola, por que não aprender tudo desde a psicomagia até a ciência, do inconsciente à manifestação? Aqui quebramos os limites do conhecido para que você recupere a memória antiga. Solte as expectativas, flua com a intuição do seu coração e prepare-se.",
             samurai: {
                 title: "O Caminho do Samurai",
                 fundamentals: ["disciplina", "técnica", "precisão"],
@@ -370,16 +390,17 @@ const translations = {
         },
         bio: {
             meta: { title: "Bio | KITSUNE" },
+            page: { title: "Bio" },
             hero: { title: "KITSUNE", subtitle: "Trajetória · Filosofia · Prática" },
             quien: { title: "Quem sou", text: "Instrutora de Shibari, fotógrafa e criadora de espaços. Meu trabalho habita a interseção entre a disciplina técnica japonesa e a exploração contemporânea do corpo, do vínculo e da imagem." },
             trayectoria: {
                 title: "Trajetória",
                 "2022": "Início da formação em Shibari tradicional.",
                 "2023": "Abertura de espaço próprio. Início do ensino de oficinas e aulas regulares.",
-                "2024": "Início da formação em Seikubaku",
+                "2024": "Início da especialização em Seikubaku, biomecânica e neurociência aplicada à prática do Shibari.",
                 "2025_1": "Certificação em Sekibaku pelo Shibari Dojo com Señor Interior. Bogotá, Colômbia.",
                 "2025_2": "Publicação do livro \"O Corpo como Mapa: A cosmovisão andina explicando o shibari como ferramenta de autoconhecimento\".",
-                "2026": "Lançamento da KITSUNE como plataforma integrada: Ensino, Produção e Comunidade."
+                "2026": "Lançamento da KITSUNE como plataforma integrada: Marca AylluRyu, Ensino, Produção e Comunidade."
             },
             filosofia: {
                 title: "Filosofia de Trabalho",
@@ -413,9 +434,20 @@ const translations = {
             meta: { title: "Galeria | KITSUNE" },
             title: "Galeria",
             subtitle: "Sessões, performances e produções",
-            ver_sesion: "Ver sessão completa →",
-            modal: { titulo: "Título da sessão", desc: "Descrição completa da sessão.", patreon: "Ver sessão completa" },
-            sesiones: [{ titulo: "Sessão #1 - Sekibaku 101", desc: "Descrição breve da sessão, o conceito, os participantes e o contexto. Pode ser de 2-3 linhas." }]
+            sesiones: [
+                { 
+                    titulo: "Kitsession #1 - Bizarrope", 
+                    desc: "Às vezes (sempre) o shibari nos oferece a possibilidade de brincar e na brincadeira podemos nos permitir interpretar o que sentimos de maneira genuína. É apenas uma questão de estar presente." 
+                },
+                { 
+                    titulo: "Kitsession #2 - Sol e Ar", 
+                    desc: "O ar livre, a luz do sol e a primavera podem ser o contexto ideal para experimentar a conexão com o sagrado da natureza e entre nós, deixando que as cordas sejam um canal." 
+                },
+                { 
+                    titulo: "Kitsession #3 - Às Duas e Vinte", 
+                    desc: "Amarrar sentindo a eletricidade no ar" 
+                }
+            ]
         },
         tienda: {
             meta: { title: "Loja | KITSUNE" },
@@ -446,7 +478,7 @@ const translations = {
         },
         about: {
             title: "について",
-            text: "縛りの指導者。写真家。身体の探求、安全性、芸術の空間を創造します。",
+            text: "縛りの指導者。写真家。身体の探求、安全性、芸術、精神性の空間を創造します。",
             link: "作品についてもっと知る →"
         },
         cards: {
@@ -511,16 +543,17 @@ const translations = {
         },
         bio: {
             meta: { title: "経歴 | KITSUNE" },
+            page: { title: "経歴" },
             hero: { title: "KITSUNE", subtitle: "軌跡 · 哲学 · 実践" },
             quien: { title: "私は誰", text: "縛りの指導者、写真家、空間の創造者。私の仕事は、日本の技術的規律と身体、絆、イメージの現代的探求との交差点にあります。" },
             trayectoria: {
                 title: "軌跡",
                 "2022": "伝統的な縛りのトレーニングを開始。",
                 "2023": "独自のスペースを開設。ワークショップと定期クラスの指導を開始。",
-                "2024": "矢神流の正縛のトレーニングを開始。",
-                "2025_1": "矢神流縛り道場による正縛の認定をセニョール・インテリアより取得。ボゴタ、コロンビア。",
+                "2024": "正縛、生体力学、神経科学の専門トレーニングを開始。",
+                "2025_1": "セニョール・インテリアによる正縛の認定を取得。ボゴタ、コロンビア。",
                 "2025_2": "著書「身体 as 地図：アンデスの宇宙観が説く自己認識の道具としての縛り」を出版。",
-                "2026": "統合プラットフォームとしてのKITSUNEを発足：教育、制作、共同体。"
+                "2026": "統合プラットフォームとしてのKITSUNEを発足：ブランド、教育、制作、共同体。"
             },
             filosofia: {
                 title: "仕事の哲学",
@@ -554,9 +587,20 @@ const translations = {
             meta: { title: "ギャラリー | KITSUNE" },
             title: "ギャラリー",
             subtitle: "セッション、パフォーマンス、制作",
-            ver_sesion: "セッションを見る →",
-            modal: { titulo: "セッションのタイトル", desc: "セッションの完全な説明。", patreon: "セッションを見る" },
-            sesiones: [{ titulo: "セッション #1 - 正縛 101", desc: "セッション、コンセプト、参加者、コンテキストの簡単な説明。2-3行で。" }]
+            sesiones: [
+                { 
+                    titulo: "Kitsession #1 - Bizarrope", 
+                    desc: "時々（いつも）、縛りは私たちに遊ぶ可能性を提供し、遊びの中で私たちは本当に感じていることを解釈することを許すことができます。それはただ、そこにいることの問題です。" 
+                },
+                { 
+                    titulo: "Kitsession #2 - 太陽と空気", 
+                    desc: "野外、太陽の光、春は、自然の神聖さと私たちの間のつながりを体験する理想的な文脈となり、縄が道となるようにします。" 
+                },
+                { 
+                    titulo: "Kitsession #3 - 2時20分", 
+                    desc: "空気中の電気を感じながら縛る" 
+                }
+            ]
         },
         tienda: {
             meta: { title: "店 | KITSUNE" },
@@ -587,7 +631,7 @@ const translations = {
         },
         about: {
             title: "关于",
-            text: "绳缚导师。摄影师。我创造身体探索、安全与艺术的空間。",
+            text: "绳缚导师。摄影师。我创造身体探索、安全、艺术与精神性的空间。",
             link: "了解更多关于我的作品 →"
         },
         cards: {
@@ -652,16 +696,17 @@ const translations = {
         },
         bio: {
             meta: { title: "简介 | KITSUNE" },
+            page: { title: "简介" },
             hero: { title: "KITSUNE", subtitle: "轨迹 · 哲学 · 实践" },
             quien: { title: "我是谁", text: "绳缚导师、摄影师和空间创造者。我的工作栖息于日本技术纪律与身体、纽带和图像的当代探索的交汇处。" },
             trayectoria: {
                 title: "轨迹",
                 "2022": "开始传统绳缚培训。",
                 "2023": "开设自己的空间。开始教授工作坊和常规课程。",
-                "2024": "开始在矢神流学校接受正缚培训。",
-                "2025_1": "获得矢神流缚道场的正缚认证，由Señor Interior颁发。波哥大，哥伦比亚。",
+                "2024": "开始正缚、生物力学和神经科学的专业培训。",
+                "2025_1": "获得Señor Interior颁发的正缚认证。波哥大，哥伦比亚。",
                 "2025_2": "出版著作《身体作为地图：安第斯宇宙观解释绳缚作为自我认知的工具》。",
-                "2026": "推出KITSUNE作为综合平台：教育、制作和社群。"
+                "2026": "推出KITSUNE作为综合平台：品牌、教育、制作和社群。"
             },
             filosofia: {
                 title: "工作哲学",
@@ -677,41 +722,53 @@ const translations = {
                 "3": "摄影、编辑和平面设计培训，达芬奇，2019"
             },
             actualidad: {
-                title: "現在",
-                "1": "現在、個人およびグループの定期クラス、パーソナライズされたメンタリング、ワークショップ、写真制作を調整しています。Patreonを通じて教材を共有し、映画ディベートを組織し、継続的な学習共同体を構築しています。",
-                "2": "また、体験としてのプライベート縛りセッション、パフォーマンスの写真記録、映像コンテンツの制作も提供しています。"
+                title: "现在",
+                "1": "目前协调个人和团体常规课程、个性化指导、工作坊和摄影制作。通过Patreon分享教材、组织电影辩论并建立持续学习社群。",
+                "2": "还提供私人绳缚体验课程、表演摄影记录和视听内容制作。"
             },
-            volver: "← ホームに戻る"
+            volver: "← 返回首页"
         },
         contacto: {
-            meta: { title: "連絡 | KITSUNE" },
-            page: { title: "連絡" },
-            title: "接続",
-            follow: "フォロー",
-            intro: "質問はありますか？プライベートセッションやスペースでのワークショップの調整をご希望ですか？",
-            nota: { "1": "24-48時間以内に返信。クラスについての質問は、まず", "2": "道" }
+            meta: { title: "联系 | KITSUNE" },
+            page: { title: "联系" },
+            title: "连接",
+            follow: "关注",
+            intro: "有问题吗？想要协调私人课程或为您的工作空间举办工作坊？",
+            nota: { "1": "24-48小时内回复。关于课程的问题，请先查看", "2": "路径" }
         },
         galeria: {
-            meta: { title: "ギャラリー | KITSUNE" },
-            title: "ギャラリー",
-            subtitle: "セッション、パフォーマンス、制作",
-            ver_sesion: "セッションを見る →",
-            modal: { titulo: "セッションのタイトル", desc: "セッションの完全な説明。", patreon: "セッションを見る" },
-            sesiones: [{ titulo: "セッション #1 - 正縛 101", desc: "セッション、コンセプト、参加者、コンテキストの簡単な説明。2-3行で。" }]
-        },
-        tienda: {
-            meta: { title: "店 | KITSUNE" },
-            title: "店",
-            subtitle: "あなたの実践に必要なすべて、それ以上のもの",
-            ver_publicacion: "商品を見る →",
-            productos: [
-                { nombre: "麻縄", desc: "長さ8メートル×太さ6mmの天然繊維の縄。床での縛りと吊りの両方に最適。アルゼンチ国内配送", precio: "$30.000 ARS" },
-                { nombre: "著書「身体 as 地図」Kitsune著、2025年版（スペイン語）", desc: "自己認識の道具としての縛りを説くアンデスの宇宙観。世界中に配送", precio: "$19.99 USD" }
+            meta: { title: "画廊 | KITSUNE" },
+            title: "画廊",
+            subtitle: "课程、表演和制作",
+            sesiones: [
+                { 
+                    titulo: "Kitsession #1 - Bizarrope", 
+                    desc: "有时（总是），绳缚为我们提供了玩耍的可能性，在游戏中我们可以真诚地诠释我们的感受。这只是在场的问题。" 
+                },
+                { 
+                    titulo: "Kitsession #2 - 阳光与空气", 
+                    desc: "户外、阳光和春天可以成为体验与自然神圣性以及我们之间联系的理想背景，让绳索成为通道。" 
+                },
+                { 
+                    titulo: "Kitsession #3 - 两点二十分", 
+                    desc: "绑缚时感受空气中的电流" 
+                }
             ]
         },
-        footer: { copyright: "© 2026 KITSUNE. 全著作権所有。" }
+        tienda: {
+            meta: { title: "商店 | KITSUNE" },
+            title: "商店",
+            subtitle: "您实践所需的一切，甚至更多",
+            ver_publicacion: "查看商品 →",
+            productos: [
+                { nombre: "黄麻绳", desc: "天然纤维绳，长8米×粗6毫米。适合地面绑缚和悬挂。阿根廷境内配送", precio: "$30.000 ARS" },
+                { nombre: "书籍《身体作为地图》Kitsune著，2025年版（西班牙语）", desc: "安第斯宇宙观将绳缚解释为自我认知的工具。全球配送", precio: "$19.99 USD" }
+            ]
+        },
+        footer: { copyright: "© 2026 KITSUNE. 版权所有。" }
     },
 }
+
 const i18n = {
     currentLang: localStorage.getItem('lang') || 'es',
     
