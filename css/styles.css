@@ -1520,7 +1520,7 @@ a {
     }
     
     .bio-image-container {
-        max-width: 280px; /* Un poco más chica en mobile */
+        max-width: 480px; /* Un poco más chica en mobile */
     }
     
     .bio-portrait {
