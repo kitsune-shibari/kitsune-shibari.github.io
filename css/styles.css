@@ -1558,3 +1558,100 @@ a {
     color: var(--color-accent-hover);
     transform: translateX(4px);
 }
+.bio-section h2 {
+    color: var(--color-accent);
+    font-family: var(--font-titulos);
+    font-size: clamp(1.25rem, 3vw, 1.75rem);
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    margin-bottom: var(--space-md);
+    position: relative;
+    padding-bottom: var(--space-xs);
+}
+
+.bio-lead {
+    font-size: 1.125rem;
+    line-height: 1.8;
+    opacity: 0.9;
+    text-align: justify; /* o center si preferís */
+    hyphens: auto;
+}
+
+.bio-section p {
+    font-size: 1rem;
+    line-height: 1.9;
+    opacity: 0.85;
+    margin-bottom: var(--space-sm);
+}
+
+.bio-list {
+    list-style: none;
+    padding: 0;
+}
+
+.bio-list li {
+    position: relative;
+    padding-left: 1.5rem;
+    margin-bottom: var(--space-sm);
+    font-size: 1rem;
+    line-height: 1.8;
+    opacity: 0.85;
+}
+
+/* Viñeta personalizada */
+.bio-list li::before {
+    content: '◆';
+    position: absolute;
+    left: 0;
+    color: var(--color-accent);
+    font-size: 0.75rem;
+    top: 0.2rem;
+}
+.bio-grid {
+    display: grid;
+    gap: var(--space-md);
+    margin-top: var(--space-md);
+}
+
+@media (min-width: 768px) {
+    .bio-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+.bio-card {
+    background: rgba(255, 255, 255, 0.02);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 4px;
+    padding: var(--space-md);
+    transition: var(--transition-smooth);
+}
+
+.bio-card:hover {
+    border-color: var(--color-accent);
+    background: rgba(255, 255, 255, 0.04);
+    transform: translateY(-4px);
+}
+
+.bio-card h3 {
+    color: var(--color-accent);
+    font-family: var(--font-titulos);
+    font-size: 1.1rem;
+    letter-spacing: 0.1em;
+    margin-bottom: var(--space-sm);
+    text-transform: uppercase;
+}
+
+.bio-card p {
+    font-size: 0.95rem;
+    line-height: 1.7;
+    opacity: 0.8;
+}
+.bio-section {
+    margin-bottom: var(--space-xl);
+}
+
+/* Quitar los <br> innecesarios del HTML y usar esto en su lugar */
+.bio-section + .bio-section {
+    margin-top: var(--space-xl);
+}
