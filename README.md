@@ -1,2 +1,2 @@
-# kitsune-shibari.github.io
-Kitsune Shibari Website prod
+# kitsune.github.io
+Kitsune Shibari Website
