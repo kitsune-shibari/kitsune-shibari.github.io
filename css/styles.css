@@ -1655,3 +1655,42 @@ a {
 .bio-section + .bio-section {
     margin-top: var(--space-xl);
 }
+/* LOGO CON IMAGEN Y TEXTO */
+.logo {
+    display: flex;
+    align-items: center;
+    gap: var(--space-xs);
+    text-decoration: none;
+}
+
+.logo-img {
+    height: 40px; /* Ajustá según necesites */
+    width: auto;
+    opacity: 0.9;
+    transition: var(--transition-smooth);
+}
+
+.logo-text {
+    font-family: var(--font-titulos);
+    font-size: 1.25rem;
+    letter-spacing: 0.3em;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.logo:hover .logo-img {
+    opacity: 1;
+    transform: scale(1.05);
+}
+
+/* MOBILE: logo más chico */
+@media (max-width: 768px) {
+    .logo-img {
+        height: 32px;
+    }
+    
+    .logo-text {
+        font-size: 1rem;
+        letter-spacing: 0.2em;
+    }
+}
