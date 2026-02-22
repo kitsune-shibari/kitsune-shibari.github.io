@@ -1497,7 +1497,7 @@ a {
 
 .bio-image-container {
     flex-shrink: 0;
-    max-width: 320px; /* Ancho máximo, pero se adapta */
+    max-width: 480px; /* Ancho máximo, pero se adapta */
     width: 100%;
 }
 
