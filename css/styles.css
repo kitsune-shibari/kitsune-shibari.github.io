@@ -1510,7 +1510,7 @@ a {
 .bg-texture {
     position: fixed;
     inset: 0;
-    background-image: url('https://cdn.jsdelivr.net/gh/kitsune-shibari/kitsune.github.io@main/img/logo-kitsune-mc-ol.webp'); /* O el path que sea */
+    background-image: url('img/logo-kitsune-mc-ol.webp'); /* O el path que sea */
     background-size: 60%; /* Ajustar tamaño */
     background-position: center;
     background-repeat: no-repeat;
