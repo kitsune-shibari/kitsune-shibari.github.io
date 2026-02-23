@@ -9,16 +9,16 @@ const translations = {
             agenda: "Agenda",
             galeria: "Galería",
             tienda: "Tienda",
-            bio: "Bio",
+            bio: "Bio - Kitsune",
             contacto: "Contacto",
             patreon: "Patreon →"
         },
         hero: {
-            title: "KITSUNE",
+            title: "AYLLU RYU",
             subtitle: "Disciplina · Movimiento · Comunidad"
         },
         about: {
-            title: "Sobre",
+            title: "Sobre Kitsune",
             text: "Instructora de Shibari. Fotógrafa. Creo espacios de exploración corporal, seguridad, arte y espiritualidad a través de las cuerdas.",
             link: "Conocé más sobre mi trabajo →"
         },
@@ -29,7 +29,7 @@ const translations = {
         },
         caminos: {
             title: "Caminos de aprendizaje",
-            subtitle: "Si la Vida es una escuela por qué no aprenderlo todo desde la psicomagia hasta la ciencia, desde el inconsciente a la manifestación. Acá rompemos los límites de lo conocido para que recuperes la memoria antigua. Solta las expectativas, flui con la intuición de tu corazón y preparate.",
+            subtitle: "Desde el Tai Chi hasta el teatro Kabuki, de la danza ritual Hindú hasta la geometría y de la neurociencia a la biomecánica aplicada a la práctica. Ayllu Ryu propone una mirada holística e integradora del Sekibaku Shibari, enfocada en la comunicación fluida entre los cuerpos, mantener el estado presente y la experiencia compartida, usando la ténica como herramienta y la cuerda como canal para alcanzar dicho fin. Para esto desarrollamos 3 alternativas de clases, pensadas y adaptadas según su finalidad:",
             samurai: {
                 title: "El camino del samurai",
                 fundamentals: ["disciplina", "técnica", "precisión"],
@@ -84,8 +84,8 @@ const translations = {
         },
         bio: {
             meta: { title: "Bio | KITSUNE" },
-            page: { title: "Bio" },
-            hero: { title: "KITSUNE", subtitle: "Trayectoria · Filosofía · Práctica" },
+            page: { title: "Bio - Kitsune" },
+            hero: { title: "AYLLU RYU", subtitle: "Trayectoria · Filosofía · Práctica" },
             quien: { title: "Quién soy", text: "Instructora de Shibari, fotógrafa y creadora de espacios. Mi trabajo habita en la intersección entre la disciplina técnica japonesa y la exploración contemporánea del cuerpo, el vínculo y la imagen." },
             trayectoria: {
                 title: "Trayectoria",
@@ -162,12 +162,12 @@ const translations = {
             agenda: "Schedule",
             galeria: "Gallery",
             tienda: "Shop",
-            bio: "Bio",
+            bio: "Bio - Kitsune",
             contacto: "Contact",
             patreon: "Patreon →"
         },
         hero: {
-            title: "KITSUNE",
+            title: "AYLLU RYU",
             subtitle: "Discipline · Movement · Community"
         },
         about: {
@@ -237,8 +237,8 @@ const translations = {
         },
         bio: {
             meta: { title: "Bio | KITSUNE" },
-            page: { title: "Bio" },
-            hero: { title: "KITSUNE", subtitle: "Trajectory · Philosophy · Practice" },
+            page: { title: "Bio - Kitsune" },
+            hero: { title: "AYLLU RYU", subtitle: "Trajectory · Philosophy · Practice" },
             quien: { title: "Who I am", text: "Shibari instructor, photographer, and creator of spaces. My work inhabits the intersection between Japanese technical discipline and contemporary exploration of the body, bond, and image." },
             trayectoria: {
                 title: "Trajectory",
@@ -315,12 +315,12 @@ const translations = {
             agenda: "Agenda",
             galeria: "Galeria",
             tienda: "Loja",
-            bio: "Bio",
+            bio: "Bio - Kitsune",
             contacto: "Contato",
             patreon: "Patreon →"
         },
         hero: {
-            title: "KITSUNE",
+            title: "AYLLU RYU",
             subtitle: "Disciplina · Movimento · Comunidade"
         },
         about: {
@@ -390,8 +390,8 @@ const translations = {
         },
         bio: {
             meta: { title: "Bio | KITSUNE" },
-            page: { title: "Bio" },
-            hero: { title: "KITSUNE", subtitle: "Trajetória · Filosofia · Prática" },
+            page: { title: "Bio - Kitsune" },
+            hero: { title: "AYLLU RYU", subtitle: "Trajetória · Filosofia · Prática" },
             quien: { title: "Quem sou", text: "Instrutora de Shibari, fotógrafa e criadora de espaços. Meu trabalho habita a interseção entre a disciplina técnica japonesa e a exploração contemporânea do corpo, do vínculo e da imagem." },
             trayectoria: {
                 title: "Trajetória",
@@ -468,12 +468,12 @@ const translations = {
             agenda: "予定",
             galeria: "ギャラリー",
             tienda: "店",
-            bio: "経歴",
+            bio: "経歴 - Kitsune",
             contacto: "連絡",
             patreon: "Patreon →"
         },
         hero: {
-            title: "KITSUNE",
+            title: "AYLLU RYU",
             subtitle: "規律 · 動き · 共同体"
         },
         about: {
@@ -544,7 +544,7 @@ const translations = {
         bio: {
             meta: { title: "経歴 | KITSUNE" },
             page: { title: "経歴" },
-            hero: { title: "KITSUNE", subtitle: "軌跡 · 哲学 · 実践" },
+            hero: { title: "AYLLU RYU", subtitle: "軌跡 · 哲学 · 実践" },
             quien: { title: "私は誰", text: "縛りの指導者、写真家、空間の創造者。私の仕事は、日本の技術的規律と身体、絆、イメージの現代的探求との交差点にあります。" },
             trayectoria: {
                 title: "軌跡",
@@ -621,12 +621,12 @@ const translations = {
             agenda: "日程",
             galeria: "画廊",
             tienda: "商店",
-            bio: "简介",
+            bio: "简介 - Kitsune",
             contacto: "联系",
             patreon: "Patreon →"
         },
         hero: {
-            title: "KITSUNE",
+            title: "AYLLU RYU",
             subtitle: "纪律 · 运动 · 社群"
         },
         about: {
@@ -697,7 +697,7 @@ const translations = {
         bio: {
             meta: { title: "简介 | KITSUNE" },
             page: { title: "简介" },
-            hero: { title: "KITSUNE", subtitle: "轨迹 · 哲学 · 实践" },
+            hero: { title: "AYLLU RYU", subtitle: "轨迹 · 哲学 · 实践" },
             quien: { title: "我是谁", text: "绳缚导师、摄影师和空间创造者。我的工作栖息于日本技术纪律与身体、纽带和图像的当代探索的交汇处。" },
             trayectoria: {
                 title: "轨迹",
