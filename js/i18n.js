@@ -58,7 +58,7 @@ const translations = {
             proximos: "Próximos eventos",
             pasados: "Eventos pasados",
             meses: { feb: "FEB", mar: "MAR", abr: "ABR" },
-            ubicacion: { ba: "Buenos Aires", cordoba: "Córdoba", rosario: "Rosario", rg: "Río Gallegos" },
+            ubicacion: { ba: "Buenos Aires", cordoba: "Córdoba", rosario: "Rosario", rg: "Río Gallegos, Santa Cruz" },
             estados: {
                 abierto: "Inscripción abierta",
                 agotado: "AGOTADO",
