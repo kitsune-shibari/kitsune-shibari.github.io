@@ -9,7 +9,7 @@ const translations = {
             agenda: "Agenda",
             galeria: "Galería",
             tienda: "Tienda",
-            bio: "Bio - Kitsune",
+            bio: "Bio - MBÓI HŨ",
             contacto: "Contacto",
             patreon: "Patreon →"
         },
@@ -18,7 +18,7 @@ const translations = {
             subtitle: "Disciplina · Movimiento · Comunidad"
         },
         about: {
-            title: "Sobre Kitsune",
+            title: "Sobre MBÓI HŨ",
             text: "Instructora de Shibari. Fotógrafa. Creo espacios de exploración corporal, seguridad, arte y espiritualidad a través de las cuerdas.",
             link: "Conocé más sobre mi trabajo →"
         },
@@ -34,32 +34,33 @@ const translations = {
                 title: "El camino del samurai",
                 fundamentals: ["disciplina", "técnica", "precisión"],
                 desc: "Perfecto para quien tiene ganas de sumarse a una disciplina que te permite jugar a ser el samurai que siempre quisiste mientras aprendes una habilidad manual nueva, compartis con tu pareja y aprendes historia y leyendas míticas!",
-                cta: "¿A qué estás esperando?",
+                cta: "¿Qué estás esperando?",
                 button: "Más info"
             },
             serpiente: {
                 title: "El camino de la serpiente",
                 fundamentals: ["interpretación", "educación somática", "biomecánica"],
                 desc: "Perfecto para quien viene de una rama de las artes y ve una danza, una pintura o una experiencia en lo que pasa entre mis cuerdas. Herramientas adaptadas para entender la técnica y disciplina desde un enfoque más flexible.",
-                cta: "¿A qué estás esperando?",
+                cta: "¿Qué estás esperando?",
                 button: "Más info"
             },
             suspension: {
                 title: "Yo suspendo sola!",
                 fundamentals: ["propiocepción", "equilibrio", "fuerza"],
                 desc: "Taller para rope bottoms donde enseñamos propiocepción, puntos de apoyo y equilibrio en el aire y piso. Mejora tu tono muscular y tu presencia en la sesión. Nos hace sentirnos las Diosas que somos al vernos tener avances en nuestro conocimiento corporal.",
-                cta: "¿A qué estás esperando?",
+                cta: "¿Qué estás esperando?",
                 button: "Más info"
             }
         },
         agenda: {
-            meta: { title: "Agenda | KITSUNE" },
+            meta: { title: "Agenda | MBÓI HŨ" },
             title: "Agenda",
             proximos: "Próximos eventos",
             pasados: "Eventos pasados",
             meses: { feb: "FEB", mar: "MAR", abr: "ABR" },
-            ubicacion: { ba: "Buenos Aires", cordoba: "Córdoba", rosario: "Rosario" },
+            ubicacion: { ba: "Buenos Aires", cordoba: "Córdoba", rosario: "Rosario", rg: "Río Gallegos" },
             estados: {
+                abierto: "Inscripción abierta",
                 agotado: "AGOTADO",
                 confirmar: "A confirmar",
                 finalizado: "✓ Finalizado",
@@ -72,8 +73,8 @@ const translations = {
                 grabacion: "Ver grabación →"
             },
             eventos: [
-                { titulo: "Taller: \"Ya sé hacer nudos! ...Y ahora qué? Biomecánica y Cadena cinética\"", desc: "Worktienda dirigido a conocer sobre la biomecánica del cuerpo, qué es la cadena cinética y cómo integrarlos al shibari." },
-                { titulo: "Taller: El camino del samurai", desc: "Iniciación a la disciplina, técnica y precisión del Shibari tradicional." },
+                { titulo: "MASTERCLASS: AMÁRRAME", desc: "Introducción al estado de flow en cuerdas." },
+                { titulo: "MASTERCLASS: SHIBARI AL SUR", desc: "Master class de Shibari a cargo de Mbói Hũ." },
                 { titulo: "Yo suspendo sola! - Edición especial", desc: "Taller intensivo para rope bottoms. Propiocepción, equilibrio y fuerza." },
                 { titulo: "Performance: Rituales de primavera", desc: "Presentación en vivo con música en vivo. Espacio limitado." }
             ],
@@ -83,8 +84,8 @@ const translations = {
             ]
         },
         bio: {
-            meta: { title: "Bio | KITSUNE" },
-            page: { title: "Bio - Kitsune" },
+            meta: { title: "Bio | MBÓI HŨ" },
+            page: { title: "Bio - MBÓI HŨ" },
             hero: { title: "AYLLU RYU", subtitle: "Trayectoria · Filosofía · Práctica" },
             quien: { title: "Quién soy", text: "Instructora de Shibari, fotógrafa y creadora de espacios. Mi trabajo habita en la intersección entre la disciplina técnica japonesa y la exploración contemporánea del cuerpo, el vínculo y la imagen." },
             trayectoria: {
@@ -94,7 +95,7 @@ const translations = {
                 "2024": "Comienzo de especialización en Seikubaku, biomecánica y neurociencia aplicada a la práctica del Shibari.",
                 "2025_1": "Certificación de Sekibaku por Shibari Dojo con Señor Interior. Bogotá, Colombia.",
                 "2025_2": "Publicación del libro \"El cuerpo como mapa: la cosmovisión andina explicando el shibari como herramienta de autoconocimiento\".",
-                "2026": "Lanzamiento de KITSUNE como plataforma integrada: Marca AylluRyu, Enseñanza, Producción y Comunidad."
+                "2026": "Lanzamiento de MBÓI HŨ como plataforma integrada: Marca AylluRyu, Enseñanza, Producción y Comunidad."
             },
             filosofia: {
                 title: "Filosofía de trabajo",
@@ -117,7 +118,7 @@ const translations = {
             volver: "← Volver al inicio"
         },
         contacto: {
-            meta: { title: "Contacto | KITSUNE" },
+            meta: { title: "Contacto | MBÓI HŨ" },
             page: { title: "Contacto" },
             title: "Conectá",
             follow: "Seguime",
@@ -125,35 +126,35 @@ const translations = {
             nota: { "1": "Respuesta en 24-48hs. Para consultas sobre clases, revisá primero la sección", "2": "Caminos" }
         },
         galeria: {
-            meta: { title: "Galería | KITSUNE" },
+            meta: { title: "Galería | MBÓI HŨ" },
             title: "Galería",
             subtitle: "Sesiones, performances y producciones",
             sesiones: [
                 { 
-                    titulo: "Kitsession #1 - Bizarrope", 
+                    titulo: "Sesión #1 - Bizarrope", 
                     desc: "A veces (siempre) el shibari nos ofrece la posibilidad de jugar y en lo lúdico podemos dejarnos interpretar lo que sentimos de manera genuina. Es sólo cuestión de estar presentes." 
                 },
                 { 
-                    titulo: "Kitsession #2 - Sol y Aire", 
+                    titulo: "Sesión #2 - Sol y Aire", 
                     desc: "El aire libre, la luz del sol y la primavera pueden ser el contexto ideal para experimentar la conexión con lo sagrado de la naturaleza y entre nosotras, dejando que las cuerdas sean canal." 
                 },
                 { 
-                    titulo: "Kitsession #3 - A dos veinte", 
+                    titulo: "Sesión #3 - A dos veinte", 
                     desc: "Atar sintiendo la electricidad en el aire" 
                 }
             ]
         },
         tienda: {
-            meta: { title: "Tienda | KITSUNE" },
+            meta: { title: "Tienda | MBÓI HŨ" },
             title: "Tienda",
             subtitle: "Todo lo que necesitás para tu práctica y mucho más",
             ver_publicacion: "Ver publicación →",
             productos: [
                 { nombre: "Cuerda de Yute", desc: "Cuerda de fibras naturales de 8 metro de longitud x 6mm de espesor. Ideal tanto para atar en piso como suspensiones. Envíos dentro de Argentina", precio: "$30.000 ARS" },
-                { nombre: "Libro \"El cuerpo como mapa\" por Kitsune, Ed. 2025 (Español)", desc: "La cosmovisión andina explicando al shibari como herramienta de autoconocimiento. Envíos a todo el mundo", precio: "$19.99 USD" }
+                { nombre: "Libro \"El cuerpo como mapa\" por MBÓI HŨ, Ed. 2025 (Español)", desc: "La cosmovisión andina explicando al shibari como herramienta de autoconocimiento. Envíos a todo el mundo", precio: "$19.99 USD" }
             ]
         },
-        footer: { copyright: "© 2026 KITSUNE. Todos los derechos reservados." }
+        footer: { copyright: "© 2026 MBÓI HŨ. Todos los derechos reservados." }
     },
     
     en: {
@@ -162,7 +163,7 @@ const translations = {
             agenda: "Schedule",
             galeria: "Gallery",
             tienda: "Shop",
-            bio: "Bio - Kitsune",
+            bio: "Bio - MBÓI HŨ",
             contacto: "Contact",
             patreon: "Patreon →"
         },
@@ -206,7 +207,7 @@ const translations = {
             }
         },
         agenda: {
-            meta: { title: "Schedule | KITSUNE" },
+            meta: { title: "Schedule | MBÓI HŨ" },
             title: "Schedule",
             proximos: "Upcoming events",
             pasados: "Past events",
@@ -236,8 +237,8 @@ const translations = {
             ]
         },
         bio: {
-            meta: { title: "Bio | KITSUNE" },
-            page: { title: "Bio - Kitsune" },
+            meta: { title: "Bio | MBÓI HŨ" },
+            page: { title: "Bio - MBÓI HŨ" },
             hero: { title: "AYLLU RYU", subtitle: "Trajectory · Philosophy · Practice" },
             quien: { title: "Who I am", text: "Shibari instructor, photographer, and creator of spaces. My work inhabits the intersection between Japanese technical discipline and contemporary exploration of the body, bond, and image." },
             trayectoria: {
@@ -247,7 +248,7 @@ const translations = {
                 "2024": "Beginning of specialization in Seikubaku, biomechanics and neuroscience applied to Shibari practice.",
                 "2025_1": "Certification in Sekibaku by Shibari Dojo with Señor Interior. Bogotá, Colombia.",
                 "2025_2": "Publication of the book \"The Body as Map: Andean cosmovision explaining shibari as a tool for self-knowledge\".",
-                "2026": "Launch of KITSUNE as an integrated platform: AylluRyu Brand, Teaching, Production and Community."
+                "2026": "Launch of MBÓI HŨ as an integrated platform: AylluRyu Brand, Teaching, Production and Community."
             },
             filosofia: {
                 title: "Work Philosophy",
@@ -270,7 +271,7 @@ const translations = {
             volver: "← Back to home"
         },
         contacto: {
-            meta: { title: "Contact | KITSUNE" },
+            meta: { title: "Contact | MBÓI HŨ" },
             page: { title: "Contact" },
             title: "Connect",
             follow: "Follow",
@@ -278,35 +279,35 @@ const translations = {
             nota: { "1": "Response in 24-48hs. For questions about classes, please check the", "2": "Paths" }
         },
         galeria: {
-            meta: { title: "Gallery | KITSUNE" },
+            meta: { title: "Gallery | MBÓI HŨ" },
             title: "Gallery",
             subtitle: "Sessions, performances, and productions",
             sesiones: [
                 { 
-                    titulo: "Kitsession #1 - Bizarrope", 
+                    titulo: "Sesión #1 - Bizarrope", 
                     desc: "Sometimes (always) shibari offers us the possibility to play and in playfulness we can allow ourselves to interpret what we feel genuinely. It's just a matter of being present." 
                 },
                 { 
-                    titulo: "Kitsession #2 - Sun and Air", 
+                    titulo: "Sesión #2 - Sun and Air", 
                     desc: "The open air, sunlight and spring can be the ideal context to experience connection with the sacredness of nature and among ourselves, letting the ropes be a channel." 
                 },
                 { 
-                    titulo: "Kitsession #3 - At Twenty Past", 
+                    titulo: "Sesión #3 - At Twenty Past", 
                     desc: "Tying feeling the electricity in the air" 
                 }
             ]
         },
         tienda: {
-            meta: { title: "Shop | KITSUNE" },
+            meta: { title: "Shop | MBÓI HŨ" },
             title: "Shop",
             subtitle: "Everything you need for your practice and more",
             ver_publicacion: "View listing →",
             productos: [
                 { nombre: "Jute Rope", desc: "Natural fiber rope 8 meters long x 6mm thick. Ideal for both floor tying and suspensions. Shipping within Argentina", precio: "$30.000 ARS" },
-                { nombre: "Book \"The Body as Map\" by Kitsune, Ed. 2025 (Spanish)", desc: "Andean cosmovision explaining shibari as a tool for self-knowledge. Worldwide shipping", precio: "$19.99 USD" }
+                { nombre: "Book \"The Body as Map\" by MBÓI HŨ, Ed. 2025 (Spanish)", desc: "Andean cosmovision explaining shibari as a tool for self-knowledge. Worldwide shipping", precio: "$19.99 USD" }
             ]
         },
-        footer: { copyright: "© 2026 KITSUNE. All rights reserved." }
+        footer: { copyright: "© 2026 MBÓI HŨ. All rights reserved." }
     },
 
     pt: {
@@ -315,7 +316,7 @@ const translations = {
             agenda: "Agenda",
             galeria: "Galeria",
             tienda: "Loja",
-            bio: "Bio - Kitsune",
+            bio: "Bio - MBÓI HŨ",
             contacto: "Contato",
             patreon: "Patreon →"
         },
@@ -359,7 +360,7 @@ const translations = {
             }
         },
         agenda: {
-            meta: { title: "Agenda | KITSUNE" },
+            meta: { title: "Agenda | MBÓI HŨ" },
             title: "Agenda",
             proximos: "Próximos eventos",
             pasados: "Eventos passados",
@@ -389,8 +390,8 @@ const translations = {
             ]
         },
         bio: {
-            meta: { title: "Bio | KITSUNE" },
-            page: { title: "Bio - Kitsune" },
+            meta: { title: "Bio | MBÓI HŨ" },
+            page: { title: "Bio - MBÓI HŨ" },
             hero: { title: "AYLLU RYU", subtitle: "Trajetória · Filosofia · Prática" },
             quien: { title: "Quem sou", text: "Instrutora de Shibari, fotógrafa e criadora de espaços. Meu trabalho habita a interseção entre a disciplina técnica japonesa e a exploração contemporânea do corpo, do vínculo e da imagem." },
             trayectoria: {
@@ -400,7 +401,7 @@ const translations = {
                 "2024": "Início da especialização em Seikubaku, biomecânica e neurociência aplicada à prática do Shibari.",
                 "2025_1": "Certificação em Sekibaku pelo Shibari Dojo com Señor Interior. Bogotá, Colômbia.",
                 "2025_2": "Publicação do livro \"O Corpo como Mapa: A cosmovisão andina explicando o shibari como ferramenta de autoconhecimento\".",
-                "2026": "Lançamento da KITSUNE como plataforma integrada: Marca AylluRyu, Ensino, Produção e Comunidade."
+                "2026": "Lançamento da MBÓI HŨ como plataforma integrada: Marca AylluRyu, Ensino, Produção e Comunidade."
             },
             filosofia: {
                 title: "Filosofia de Trabalho",
@@ -423,7 +424,7 @@ const translations = {
             volver: "← Voltar ao início"
         },
         contacto: {
-            meta: { title: "Contato | KITSUNE" },
+            meta: { title: "Contato | MBÓI HŨ" },
             page: { title: "Contato" },
             title: "Conecte",
             follow: "Siga",
@@ -431,35 +432,35 @@ const translations = {
             nota: { "1": "Resposta em 24-48hs. Para perguntas sobre aulas, por favor verifique os", "2": "Caminhos" }
         },
         galeria: {
-            meta: { title: "Galeria | KITSUNE" },
+            meta: { title: "Galeria | MBÓI HŨ" },
             title: "Galeria",
             subtitle: "Sessões, performances e produções",
             sesiones: [
                 { 
-                    titulo: "Kitsession #1 - Bizarrope", 
+                    titulo: "Sesión #1 - Bizarrope", 
                     desc: "Às vezes (sempre) o shibari nos oferece a possibilidade de brincar e na brincadeira podemos nos permitir interpretar o que sentimos de maneira genuína. É apenas uma questão de estar presente." 
                 },
                 { 
-                    titulo: "Kitsession #2 - Sol e Ar", 
+                    titulo: "Sesión #2 - Sol e Ar", 
                     desc: "O ar livre, a luz do sol e a primavera podem ser o contexto ideal para experimentar a conexão com o sagrado da natureza e entre nós, deixando que as cordas sejam um canal." 
                 },
                 { 
-                    titulo: "Kitsession #3 - Às Duas e Vinte", 
+                    titulo: "Sesión #3 - Às Duas e Vinte", 
                     desc: "Amarrar sentindo a eletricidade no ar" 
                 }
             ]
         },
         tienda: {
-            meta: { title: "Loja | KITSUNE" },
+            meta: { title: "Loja | MBÓI HŨ" },
             title: "Loja",
             subtitle: "Tudo que você precisa para sua prática e muito mais",
             ver_publicacion: "Ver anúncio →",
             productos: [
                 { nombre: "Corda de Juta", desc: "Corda de fibras naturais de 8 metros de comprimento x 6mm de espessura. Ideal tanto para amarração no chão quanto suspensões. Envios dentro da Argentina", precio: "$30.000 ARS" },
-                { nombre: "Livro \"O Corpo como Mapa\" por Kitsune, Ed. 2025 (Espanhol)", desc: "A cosmovisão andina explicando o shibari como ferramenta de autoconhecimento. Envios para todo o mundo", precio: "$19.99 USD" }
+                { nombre: "Livro \"O Corpo como Mapa\" por MBÓI HŨ, Ed. 2025 (Espanhol)", desc: "A cosmovisão andina explicando o shibari como ferramenta de autoconhecimento. Envios para todo o mundo", precio: "$19.99 USD" }
             ]
         },
-        footer: { copyright: "© 2026 KITSUNE. Todos os direitos reservados." }
+        footer: { copyright: "© 2026 MBÓI HŨ. Todos os direitos reservados." }
     },
 
     ja: {
@@ -468,7 +469,7 @@ const translations = {
             agenda: "予定",
             galeria: "ギャラリー",
             tienda: "店",
-            bio: "経歴 - Kitsune",
+            bio: "経歴 - MBÓI HŨ",
             contacto: "連絡",
             patreon: "Patreon →"
         },
@@ -512,7 +513,7 @@ const translations = {
             }
         },
         agenda: {
-            meta: { title: "予定 | KITSUNE" },
+            meta: { title: "予定 | MBÓI HŨ" },
             title: "予定",
             proximos: "今後のイベント",
             pasados: "過去のイベント",
@@ -542,7 +543,7 @@ const translations = {
             ]
         },
         bio: {
-            meta: { title: "経歴 | KITSUNE" },
+            meta: { title: "経歴 | MBÓI HŨ" },
             page: { title: "経歴" },
             hero: { title: "AYLLU RYU", subtitle: "軌跡 · 哲学 · 実践" },
             quien: { title: "私は誰", text: "縛りの指導者、写真家、空間の創造者。私の仕事は、日本の技術的規律と身体、絆、イメージの現代的探求との交差点にあります。" },
@@ -553,7 +554,7 @@ const translations = {
                 "2024": "正縛、生体力学、神経科学の専門トレーニングを開始。",
                 "2025_1": "セニョール・インテリアによる正縛の認定を取得。ボゴタ、コロンビア。",
                 "2025_2": "著書「身体 as 地図：アンデスの宇宙観が説く自己認識の道具としての縛り」を出版。",
-                "2026": "統合プラットフォームとしてのKITSUNEを発足：ブランド、教育、制作、共同体。"
+                "2026": "統合プラットフォームとしてのMBÓI HŨを発足：ブランド、教育、制作、共同体。"
             },
             filosofia: {
                 title: "仕事の哲学",
@@ -576,7 +577,7 @@ const translations = {
             volver: "← ホームに戻る"
         },
         contacto: {
-            meta: { title: "連絡 | KITSUNE" },
+            meta: { title: "連絡 | MBÓI HŨ" },
             page: { title: "連絡" },
             title: "接続",
             follow: "フォロー",
@@ -584,35 +585,35 @@ const translations = {
             nota: { "1": "24-48時間以内に返信。クラスについての質問は、まず", "2": "道" }
         },
         galeria: {
-            meta: { title: "ギャラリー | KITSUNE" },
+            meta: { title: "ギャラリー | MBÓI HŨ" },
             title: "ギャラリー",
             subtitle: "セッション、パフォーマンス、制作",
             sesiones: [
                 { 
-                    titulo: "Kitsession #1 - Bizarrope", 
+                    titulo: "Sesión #1 - Bizarrope", 
                     desc: "時々（いつも）、縛りは私たちに遊ぶ可能性を提供し、遊びの中で私たちは本当に感じていることを解釈することを許すことができます。それはただ、そこにいることの問題です。" 
                 },
                 { 
-                    titulo: "Kitsession #2 - 太陽と空気", 
+                    titulo: "Sesión #2 - 太陽と空気", 
                     desc: "野外、太陽の光、春は、自然の神聖さと私たちの間のつながりを体験する理想的な文脈となり、縄が道となるようにします。" 
                 },
                 { 
-                    titulo: "Kitsession #3 - 2時20分", 
+                    titulo: "Sesión #3 - 2時20分", 
                     desc: "空気中の電気を感じながら縛る" 
                 }
             ]
         },
         tienda: {
-            meta: { title: "店 | KITSUNE" },
+            meta: { title: "店 | MBÓI HŨ" },
             title: "店",
             subtitle: "あなたの実践に必要なすべて、それ以上のもの",
             ver_publicacion: "商品を見る →",
             productos: [
                 { nombre: "麻縄", desc: "長さ8メートル×太さ6mmの天然繊維の縄。床での縛りと吊りの両方に最適。アルゼンチ国内配送", precio: "$30.000 ARS" },
-                { nombre: "著書「身体 as 地図」Kitsune著、2025年版（スペイン語）", desc: "自己認識の道具としての縛りを説くアンデスの宇宙観。世界中に配送", precio: "$19.99 USD" }
+                { nombre: "著書「身体 as 地図」MBÓI HŨ著、2025年版（スペイン語）", desc: "自己認識の道具としての縛りを説くアンデスの宇宙観。世界中に配送", precio: "$19.99 USD" }
             ]
         },
-        footer: { copyright: "© 2026 KITSUNE. 全著作権所有。" }
+        footer: { copyright: "© 2026 MBÓI HŨ. 全著作権所有。" }
     },
 
     zh: {
@@ -621,7 +622,7 @@ const translations = {
             agenda: "日程",
             galeria: "画廊",
             tienda: "商店",
-            bio: "简介 - Kitsune",
+            bio: "简介 - MBÓI HŨ",
             contacto: "联系",
             patreon: "Patreon →"
         },
@@ -665,7 +666,7 @@ const translations = {
             }
         },
         agenda: {
-            meta: { title: "日程 | KITSUNE" },
+            meta: { title: "日程 | MBÓI HŨ" },
             title: "日程",
             proximos: "即将举行的活动",
             pasados: "过往活动",
@@ -695,7 +696,7 @@ const translations = {
             ]
         },
         bio: {
-            meta: { title: "简介 | KITSUNE" },
+            meta: { title: "简介 | MBÓI HŨ" },
             page: { title: "简介" },
             hero: { title: "AYLLU RYU", subtitle: "轨迹 · 哲学 · 实践" },
             quien: { title: "我是谁", text: "绳缚导师、摄影师和空间创造者。我的工作栖息于日本技术纪律与身体、纽带和图像的当代探索的交汇处。" },
@@ -729,7 +730,7 @@ const translations = {
             volver: "← 返回首页"
         },
         contacto: {
-            meta: { title: "联系 | KITSUNE" },
+            meta: { title: "联系 | MBÓI HŨ" },
             page: { title: "联系" },
             title: "连接",
             follow: "关注",
@@ -737,35 +738,35 @@ const translations = {
             nota: { "1": "24-48小时内回复。关于课程的问题，请先查看", "2": "路径" }
         },
         galeria: {
-            meta: { title: "画廊 | KITSUNE" },
+            meta: { title: "画廊 | MBÓI HŨ" },
             title: "画廊",
             subtitle: "课程、表演和制作",
             sesiones: [
                 { 
-                    titulo: "Kitsession #1 - Bizarrope", 
+                    titulo: "Sesión #1 - Bizarrope", 
                     desc: "有时（总是），绳缚为我们提供了玩耍的可能性，在游戏中我们可以真诚地诠释我们的感受。这只是在场的问题。" 
                 },
                 { 
-                    titulo: "Kitsession #2 - 阳光与空气", 
+                    titulo: "Sesión #2 - 阳光与空气", 
                     desc: "户外、阳光和春天可以成为体验与自然神圣性以及我们之间联系的理想背景，让绳索成为通道。" 
                 },
                 { 
-                    titulo: "Kitsession #3 - 两点二十分", 
+                    titulo: "Sesión #3 - 两点二十分", 
                     desc: "绑缚时感受空气中的电流" 
                 }
             ]
         },
         tienda: {
-            meta: { title: "商店 | KITSUNE" },
+            meta: { title: "商店 | MBÓI HŨ" },
             title: "商店",
             subtitle: "您实践所需的一切，甚至更多",
             ver_publicacion: "查看商品 →",
             productos: [
                 { nombre: "黄麻绳", desc: "天然纤维绳，长8米×粗6毫米。适合地面绑缚和悬挂。阿根廷境内配送", precio: "$30.000 ARS" },
-                { nombre: "书籍《身体作为地图》Kitsune著，2025年版（西班牙语）", desc: "安第斯宇宙观将绳缚解释为自我认知的工具。全球配送", precio: "$19.99 USD" }
+                { nombre: "书籍《身体作为地图》MBÓI HŨ著，2025年版（西班牙语）", desc: "安第斯宇宙观将绳缚解释为自我认知的工具。全球配送", precio: "$19.99 USD" }
             ]
         },
-        footer: { copyright: "© 2026 KITSUNE. 版权所有。" }
+        footer: { copyright: "© 2026 MBÓI HŨ. 版权所有。" }
     },
 }
 
